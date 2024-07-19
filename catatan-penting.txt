@@ -1,0 +1,15 @@
+#E-Rekrutmen Dengan Notifikasi WA dan Email
+
+#INSTALASI
+1. XAMPP V.3.3.0 atau PHP 7 ke atas
+2. Buat Database di MySQL dan namakan dengan 'bmi'
+3. Import file database (bmi.sql) yang ada pada folder database
+4. Akses pada url dengan http://localhost/rekrutmen.pt.bmi.makassar/ untuk halaman utama bagi calon/pelamar
+5. Akses pada url dengan http://localhost/rekrutmen.pt.bmi.makassar/backoffice/login untuk hak admin/HRD
+
+#CATATAN
+1. Ketika pelamar berhasil membuat akun dan otomatis sistem mengirimkan verifikasi melalui email (pastikan email valid).
+2. Pengecualian, bagi masih dijalankan melalui localhost, maka perlu membuka database dengan nama tabel akun_pelamar dan mengubah field is_active menjadi satu, untuk mengaktifkan akun.
+3. Setelah itu saudara dapat login menggunakan email dan password yg dimasukkan pada saat pendaftaran akun.
+4. Untuk mendapatkan notifikasi WhatsApp ketika HRD telah melakukan review berkas silahkan jalankan localhost terkoneksi dengan internet.
+5. Sekian dan Terima kasih
