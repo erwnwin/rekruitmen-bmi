@@ -2,7 +2,7 @@
 <footer class="sticky-footer bg-white">
     <div class="container my-auto">
         <div class="copyright text-center my-auto">
-            Made with <i class="fas fa-heart"></i> by <span>EngMars Corp. | AnakIT41
+            Made with <i class="fas fa-heart"></i> by <span>Teknik Informatika UNITAMA
                 Copyright &copy; 2024</span>
         </div>
     </div>
