@@ -52,92 +52,92 @@ defined('BASEPATH') or exit('No direct script access allowed');
 $route['default_controller'] = 'home';
 $route['resend-email'] = 'Resend';
 
-$route['backoffice/login'] = 'Backoffice/Login';
-$route['dashboard'] = 'Backoffice/Dashboard';
-$route['profil'] = 'Backoffice/Profil';
-$route['pelamar'] = 'Backoffice/Pelamar';
-$route['pengumuman'] = 'Backoffice/Pengumuman';
-$route['jadwal'] = 'Backoffice/Pengumuman/jadwal';
-$route['history-pelamar'] = 'Backoffice/History';
-// $route['interview'] = 'Backoffice/Penilaian';
-$route['interview'] = 'Backoffice/Penilaian';
-$route['kesehatan'] = 'Backoffice/Penilaian/kesehatan';
-$route['users'] = 'Backoffice/Users';
-$route['users/act'] = 'Backoffice/Users/act';
-$route['job-vacancies'] = 'Backoffice/Job_vacancy';
-$route['job-vacancies/close/(:num)'] = 'Backoffice/Job_vacancy/close/$1';
-$route['job-vacancies/open/(:num)'] = 'Backoffice/Job_vacancy/open/$1';
-$route['act-login'] = 'Backoffice/Login/act';
+$route['backoffice/login'] = 'backoffice/Login';
+$route['dashboard'] = 'backoffice/dashboard';
+$route['profil'] = 'backoffice/profil';
+$route['pelamar'] = 'backoffice/pelamar';
+$route['pengumuman'] = 'backoffice/pengumuman';
+$route['jadwal'] = 'backoffice/pengumuman/jadwal';
+$route['history-pelamar'] = 'backoffice/history';
+// $route['interview'] = 'backoffice/Penilaian';
+$route['interview'] = 'backoffice/penilaian';
+$route['kesehatan'] = 'backoffice/penilaian/kesehatan';
+$route['users'] = 'backoffice/users';
+$route['users/act'] = 'backoffice/users/act';
+$route['job-vacancies'] = 'backoffice/job_vacancy';
+$route['job-vacancies/close/(:num)'] = 'backoffice/job_vacancy/close/$1';
+$route['job-vacancies/open/(:num)'] = 'backoffice/job_vacancy/open/$1';
+$route['act-login'] = 'backoffice/login/act';
 
 // admin-act
-$route['job-vacancies/act'] = 'Backoffice/Job_vacancy/act';
-$route['job-vacancies/create'] = 'Backoffice/Job_vacancy/create';
-$route['pengumuman/act'] = 'Backoffice/Pengumuman/act';
-$route['pengumuman/create'] = 'Backoffice/Pengumuman/create';
-$route['pelamar/detail-lamaran/(:num)'] = 'Backoffice/Pelamar/detail/$1';
-$route['pelamar/detail-pelamar/(:num)'] = 'Backoffice/Pelamar/detail_pelamar/$1';
-$route['interview/detail-interview/(:num)'] = 'Backoffice/Penilaian/detail_interview/$1';
-$route['interview/create-score/(:num)'] = 'Backoffice/Penilaian/create_score/$1';
+$route['job-vacancies/act'] = 'backoffice/job_vacancy/act';
+$route['job-vacancies/create'] = 'backoffice/job_vacancy/create';
+$route['pengumuman/act'] = 'backoffice/pengumuman/act';
+$route['pengumuman/create'] = 'backoffice/pengumuman/create';
+$route['pelamar/detail-lamaran/(:num)'] = 'backoffice/pelamar/detail/$1';
+$route['pelamar/detail-pelamar/(:num)'] = 'backoffice/pelamar/detail_pelamar/$1';
+$route['interview/detail-interview/(:num)'] = 'backoffice/penilaian/detail_interview/$1';
+$route['interview/create-score/(:num)'] = 'backoffice/penilaian/create_score/$1';
 
-$route['kesehatan/detail-kesehatan/(:num)'] = 'Backoffice/Penilaian/detail_kesehatan/$1';
+$route['kesehatan/detail-kesehatan/(:num)'] = 'backoffice/penilaian/detail_kesehatan/$1';
 
-$route['user/logout'] = 'Pegawai/logout';
-$route['logout'] = 'Pegawai/logout';
-$route['log-out'] = 'Pegawai/logout/logout_admin';
+$route['user/logout'] = 'pegawai/logout';
+$route['logout'] = 'pegawai/logout';
+$route['log-out'] = 'pegawai/logout/logout_admin';
 
-$route['user/beranda'] = 'Pegawai/beranda';
-$route['user/info'] = 'Pegawai/info';
-$route['user/info/detail-info/(:num)'] = 'Pegawai/info/detail/$1';
-$route['user/profil'] = 'Pegawai/profil';
-$route['user/status'] = 'Pegawai/status';
-$route['user/job-vacancy'] = 'Pegawai/job_vacancy';
-$route['user/job-vacancy/detail/(:num)'] = 'Pegawai/job_vacancy/detail/$1';
-$route['user/job-vacancy/lamar/(:num)'] = 'Pegawai/job_vacancy/lamar/$1';
+$route['user/beranda'] = 'pegawai/beranda';
+$route['user/info'] = 'pegawai/info';
+$route['user/info/detail-info/(:num)'] = 'pegawai/info/detail/$1';
+$route['user/profil'] = 'pegawai/profil';
+$route['user/status'] = 'pegawai/status';
+$route['user/job-vacancy'] = 'pegawai/job_vacancy';
+$route['user/job-vacancy/detail/(:num)'] = 'pegawai/job_vacancy/detail/$1';
+$route['user/job-vacancy/lamar/(:num)'] = 'pegawai/job_vacancy/lamar/$1';
 
 $route['login'] = 'Login';
 $route['loggin'] = 'Login/act_log';
 $route['registrasi'] = 'Login/verify';
 $route['register'] = 'Login/registration';
 
-$route['user/curriculum-vitae'] = 'Pegawai/curriculum_vitae';
-$route['user/curriculum-vitae/data-personal'] = 'Pegawai/curriculum_vitae/data_personal';
-$route['user/curriculum-vitae/data-alamat'] = 'Pegawai/curriculum_vitae/data_alamat';
-$route['user/curriculum-vitae/data-kontak'] = 'Pegawai/curriculum_vitae/data_kontak';
-$route['user/curriculum-vitae/data-pendidikan'] = 'Pegawai/curriculum_vitae/data_pendidikan';
-$route['user/curriculum-vitae/data-pekerjaan'] = 'Pegawai/curriculum_vitae/data_pekerjaan';
-$route['user/curriculum-vitae/data-lampiran'] = 'Pegawai/curriculum_vitae/data_lampiran';
+$route['user/curriculum-vitae'] = 'pegawai/curriculum_vitae';
+$route['user/curriculum-vitae/data-personal'] = 'pegawai/curriculum_vitae/data_personal';
+$route['user/curriculum-vitae/data-alamat'] = 'pegawai/curriculum_vitae/data_alamat';
+$route['user/curriculum-vitae/data-kontak'] = 'pegawai/curriculum_vitae/data_kontak';
+$route['user/curriculum-vitae/data-pendidikan'] = 'pegawai/curriculum_vitae/data_pendidikan';
+$route['user/curriculum-vitae/data-pekerjaan'] = 'pegawai/curriculum_vitae/data_pekerjaan';
+$route['user/curriculum-vitae/data-lampiran'] = 'pegawai/curriculum_vitae/data_lampiran';
 
 // personal
-$route['validasi/personal-act'] = 'Validasi/personal_act';
+$route['validasi/personal-act'] = 'validasi/personal_act';
 
 // kontak
-$route['validasi/kontak-act'] = 'Validasi/kontak_act';
+$route['validasi/kontak-act'] = 'validasi/kontak_act';
 
 // pendidikan
-$route['validasi/pendidikan-act'] = 'Validasi/pendidikan_act';
+$route['validasi/pendidikan-act'] = 'validasi/pendidikan_act';
 
 // alamat
-$route['validasi/alamat-act'] = 'Validasi/alamat_act';
+$route['validasi/alamat-act'] = 'validasi/alamat_act';
 
 // pekerjaan
-$route['validasi/pekerjaan-act'] = 'Validasi/pekerjaan_act';
+$route['validasi/pekerjaan-act'] = 'validasi/pekerjaan_act';
 
 
 // lampiran
-$route['validasi/update-cv'] = 'Validasi/update_cv';
-$route['validasi/update-foto'] = 'Validasi/update_foto';
-$route['validasi/update-ktp'] = 'Validasi/update_ktp';
-$route['validasi/update-ijazah'] = 'Validasi/update_ijazah';
-$route['validasi/update-npwp'] = 'Validasi/update_npwp';
-$route['validasi/update-bpjs'] = 'Validasi/update_bpjs';
-$route['validasi/update-sertifikat'] = 'Validasi/update_sertifikat';
-$route['validasi/update-kk'] = 'Validasi/update_kk';
+$route['validasi/update-cv'] = 'validasi/update_cv';
+$route['validasi/update-foto'] = 'validasi/update_foto';
+$route['validasi/update-ktp'] = 'validasi/update_ktp';
+$route['validasi/update-ijazah'] = 'validasi/update_ijazah';
+$route['validasi/update-npwp'] = 'validasi/update_npwp';
+$route['validasi/update-bpjs'] = 'validasi/update_bpjs';
+$route['validasi/update-sertifikat'] = 'validasi/update_sertifikat';
+$route['validasi/update-kk'] = 'validasi/update_kk';
 
 // valdasi
-$route['validasi/acc-berkas'] = 'Validasi/acc_berkas';
-$route['validasi/no-acc-berkas'] = 'Validasi/no_acc_berkas';
+$route['validasi/acc-berkas'] = 'validasi/acc_berkas';
+$route['validasi/no-acc-berkas'] = 'validasi/no_acc_berkas';
 
-$route['validasi/acc-interview'] = 'Validasi/acc_interview';
+$route['validasi/acc-interview'] = 'validasi/acc_interview';
 
 
 $route['404_override'] = '';
