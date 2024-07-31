@@ -10,7 +10,7 @@
       <!-- You can delete the links only if you purchased the pro version. -->
       <!-- Licensing information: https://bootstrapmade.com/license/ -->
       <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/enno-free-simple-bootstrap-template/ -->
-      Made with <i class="fa fa-heart"></i> by <a href="https://anakit41.my.id/">AnakIT41 | EngMars Corp.</a>
+      Made with <i class="fa fa-heart"></i> by <a href="https://anakit41.my.id/">Teknik Informatika UNITAMA</a>
     </div>
   </div>
 </footer><!-- End Footer -->
